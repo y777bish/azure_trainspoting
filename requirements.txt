@@ -135,7 +135,6 @@ PyMsgBox==1.0.9
 pyOpenSSL==22.0.0
 pyparsing==3.0.9
 pyperclip==1.8.2
-pypiwin32==223
 PyRect==0.2.0
 PyScreeze==0.1.28
 pyserial==3.5
@@ -146,7 +145,6 @@ python-socks==2.3.0
 pytweening==1.0.4
 pytz==2023.2
 pyusb==1.2.1
-pywin32==306
 PyYAML==6.0.1
 pyzmq==25.0.2
 queuelib==1.6.2
@@ -207,3 +205,5 @@ yt-dlp==2023.12.30
 zipp==3.17.0
 zope.interface==6.0
 zstandard==0.17.0
+pywin32==<version>; platform_system=="Windows"
+# pypiwin32==223
